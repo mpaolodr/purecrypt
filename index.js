@@ -52,7 +52,7 @@ function decrypt(value) {
     decipher.end();
     return decrypted;
   } catch (e) {
-    console.log(e.message);
+    return e.message;
   }
 }
 
